@@ -10,6 +10,42 @@ body
 {
     font-family: 'Holtwood One SC', sans-serif;
 }
+.panier{
+    float: right;
+    color: white;
+    position: relative;
+}
+.panier .basket{
+    font-size: 50px;
+    color: white;
+    transition: .5s;
+
+}
+.panier .basket:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.panier .point-item{
+    background-color: red;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+   position: relative;
+}
+.point{
+    position: absolute;
+    left: 80%;
+    bottom: -20%;
+    transform: translate(-50%,-50%);
+}
+.panier .point-item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .text-logo
 {
     font-family: 'Holtwood One SC', sans-serif;
@@ -142,6 +178,7 @@ footer ul li a:hover{
 /*View*/
 .viewBack{
     background: url(../images/bg.png);
+    padding-top: 15px;
     border-radius: 2px;
 }
 
